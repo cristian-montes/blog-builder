@@ -20,6 +20,7 @@ export default function Editor({
         <input name="title" type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
         <label htmlFor="title">Title</label>
       </div>
+
       <div className="form-control">
         <input type="text" value={subtitle} onChange={(e) => setSubtitle(e.target.value)} />
         <label>Subtitle</label>
